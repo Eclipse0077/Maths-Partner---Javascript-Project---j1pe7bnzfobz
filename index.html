@@ -1,1 +1,44 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problem Solver</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <button id="historyButton">History</button>
+    </header>
+    <main>
+        <input type="text" id="problemInput" placeholder="Enter math problem">
+        <select id="categorySelect">
+            <option value="derive">Derive</option>
+            <option value="simplify">Simplify</option>
+            <option value="factor">Factor</option>
+            <option value="integrate">Integrate</option>
+            <option value="find 0's">Find 0's</option>
+            <option value="find Tangent">Find Tangent</option>
+            <option value="area under curve">Area UNDER CURVE</option>
+            <option value="cosine">COSINE</option>
+            <option value="sine">SINE</option>
+            <option value="tangent">TAN</option>
+            <option value="inverse cosine">Inverse COSINE</option>
+            <option value="inverse sine">Inverse SINE</option>
+            <option value="inverse tangent">Inverse TAN</option>
+            <option value="absolute value">Absolute Value</option>
+            <option value="logarithm">LOG</option>
+            <!-- Add more categories as needed -->
+        </select>
+        <button id="searchButton">Search</button>
+        <div id="solutionCard"></div>
+    </main>
+    <script src="App.js"></script>
+</body>
+</html>
